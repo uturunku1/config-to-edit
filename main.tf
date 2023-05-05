@@ -1,5 +1,5 @@
 module "ec2-cluster" {
-  source = "app.staging.terraform.io/${var.organization_name}/ec2-cluster/fakewebservices"
+  source = "app.staging.terraform.io/stark-enterprises/ec2-cluster/fakewebservices"
   version = "0.1.0"
 
   token = var.token
