@@ -5,7 +5,7 @@ module "ec2-cluster" {
   hostname = var.hostname
   instance_type = "t2.micro"
   cluster_name = "EC2 Cluster 1"
-  cidr_block = "0.0.0.0/1"
+  cidr_block = "198.51.100.0/24"
   db_size = "256"
 }
 
